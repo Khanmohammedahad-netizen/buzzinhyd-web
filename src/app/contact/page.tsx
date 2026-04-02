@@ -58,11 +58,16 @@ export default function ContactPage() {
                 </a>
                 
                 <div className="flex gap-4">
-                  <a href="#" className="w-12 h-12 border border-[var(--bh-gold)] rounded-full flex items-center justify-center text-[var(--bh-text)] hover:bg-[var(--bh-gold)] hover:text-[var(--bh-warm)] transition-colors">
+                  <a href="https://www.instagram.com/buzzinhyd/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 border border-[var(--bh-gold)] rounded-full flex items-center justify-center text-[var(--bh-text)] hover:bg-[var(--bh-gold)] hover:text-[var(--bh-warm)] transition-colors">
                     <Instagram size={20} strokeWidth={1.5} />
                   </a>
-                  <a href="#" className="w-12 h-12 border border-[var(--bh-gold)] rounded-full flex items-center justify-center text-[var(--bh-text)] hover:bg-[var(--bh-gold)] hover:text-[var(--bh-warm)] transition-colors">
+                  <a href="https://www.youtube.com/@BuzzinHyd" target="_blank" rel="noopener noreferrer" className="w-12 h-12 border border-[var(--bh-gold)] rounded-full flex items-center justify-center text-[var(--bh-text)] hover:bg-[var(--bh-gold)] hover:text-[var(--bh-warm)] transition-colors">
                     <Youtube size={20} strokeWidth={1.5} />
+                  </a>
+                  <a href="https://wa.me/919052427718" target="_blank" rel="noopener noreferrer" className="w-12 h-12 border border-[var(--bh-gold)] rounded-full flex items-center justify-center text-[var(--bh-text)] hover:bg-[var(--bh-gold)] hover:text-[var(--bh-warm)] transition-colors">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+                      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-11.7 8.38 8.38 0 0 1 3.8.9L21 3z"></path>
+                    </svg>
                   </a>
                 </div>
                 

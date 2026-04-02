@@ -20,7 +20,7 @@ export function Footer() {
             </p>
           </div>
 
-          /* Spacer for desktop */
+          {/* Spacer for desktop */}
           <div className="hidden md:block md:col-span-2"></div>
 
           {/* Column 2: Links */}
@@ -41,11 +41,16 @@ export function Footer() {
             </a>
             
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 border border-[var(--bh-gold)] flex items-center justify-center text-[var(--bh-warm)] hover:bg-[var(--bh-gold)] transition-colors">
+              <a href="https://www.instagram.com/buzzinhyd/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 border border-[var(--bh-gold)] flex items-center justify-center text-[var(--bh-warm)] hover:bg-[var(--bh-gold)] transition-colors">
                 <Instagram size={18} strokeWidth={1.5} />
               </a>
-              <a href="#" className="w-10 h-10 border border-[var(--bh-gold)] flex items-center justify-center text-[var(--bh-warm)] hover:bg-[var(--bh-gold)] transition-colors">
+              <a href="https://www.youtube.com/@BuzzinHyd" target="_blank" rel="noopener noreferrer" className="w-10 h-10 border border-[var(--bh-gold)] flex items-center justify-center text-[var(--bh-warm)] hover:bg-[var(--bh-gold)] transition-colors">
                 <Youtube size={18} strokeWidth={1.5} />
+              </a>
+              <a href="https://wa.me/919052427718" target="_blank" rel="noopener noreferrer" className="w-10 h-10 border border-[var(--bh-gold)] flex items-center justify-center text-[var(--bh-warm)] hover:bg-[var(--bh-gold)] transition-colors group">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-11.7 8.38 8.38 0 0 1 3.8.9L21 3z"></path>
+                </svg>
               </a>
             </div>
             
