@@ -53,7 +53,9 @@ function HeroSection() {
           <div className="hidden md:block absolute inset-0 z-[2]" 
                style={{ background: 'linear-gradient(to right, var(--bh-warm) 0%, transparent 40%, transparent 100%)' }} />
           <div className="md:hidden absolute inset-0 z-[2]" 
-               style={{ background: 'linear-gradient(to bottom, rgba(250,246,239,0.7) 0%, rgba(250,246,239,0.4) 60%)' }} />
+               style={{ 
+                 background: 'linear-gradient(to bottom, rgba(250,246,239,0.95) 0%, rgba(250,246,239,0.85) 40%, rgba(250,246,239,0.4) 100%), linear-gradient(to right, rgba(250,246,239,0.8) 0%, transparent 100%)' 
+               }} />
         </div>
       </div>
       
