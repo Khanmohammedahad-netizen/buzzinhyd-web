@@ -6,6 +6,23 @@ const TEAM = [
   { name: 'David Chen', role: 'Strategy Head', img: '/images/placeholder.jpg' },
 ]
 
+const PROCESS_STEPS = [
+  { num: '01', label: 'Discover' },
+  { num: '02', label: 'Research' },
+  { num: '03', label: 'Strategy' },
+  { num: '04', label: 'Create' },
+  { num: '05', label: 'Launch' },
+  { num: '06', label: 'Grow' },
+]
+
+const TRUST_PILLARS = [
+  { title: 'Professionalism', desc: 'We show up on time, every time.' },
+  { title: 'Creativity', desc: 'Original ideas, never templated.' },
+  { title: 'Fast Execution', desc: 'Speed without cutting craft.' },
+  { title: 'Strategic Thinking', desc: 'Every post earns its place.' },
+  { title: 'Premium Production', desc: 'Shot, styled and edited in house.' },
+]
+
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[var(--bh-warm)] text-[var(--bh-text)]">
@@ -59,6 +76,47 @@ export default function AboutPage() {
             <div className="w-full md:w-1/2 h-[500px] relative overflow-hidden">
               <BHImage src="/images/bts-studio-setup.jpg" alt="Behind the scenes shoot" fill className="object-cover" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How We Work */}
+      <section className="w-full py-24 md:py-32 bg-[var(--bh-cream)] border-y border-[rgba(160,120,48,0.15)]">
+        <div className="w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+          <div className="flex flex-col items-center text-center mb-16">
+            <span className="font-mono text-[11px] uppercase tracking-[0.3em] text-[var(--bh-gold)] mb-4 block">
+              How We Work
+            </span>
+            <h2 className="font-display text-4xl md:text-6xl text-[var(--bh-text)]">
+              Six Steps To A Brand
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-8 md:gap-4">
+            {PROCESS_STEPS.map((step) => (
+              <div key={step.num} className="flex flex-col items-center text-center">
+                <span className="font-mono text-[11px] text-[var(--bh-gold)] mb-3">{step.num}</span>
+                <span className="font-display text-2xl text-[var(--bh-text)]">{step.label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Clients Trust Us */}
+      <section className="w-full py-24 md:py-32">
+        <div className="w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+          <div className="flex flex-col items-center text-center mb-16">
+            <span className="font-mono text-[11px] uppercase tracking-[0.3em] text-[var(--bh-gold)] mb-4 block">
+              Why Clients Trust Us
+            </span>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-10">
+            {TRUST_PILLARS.map((pillar) => (
+              <div key={pillar.title} className="flex flex-col items-center text-center">
+                <h3 className="font-display text-xl mb-2 text-[var(--bh-text)]">{pillar.title}</h3>
+                <p className="font-body text-sm text-[var(--bh-muted)] leading-relaxed">{pillar.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
