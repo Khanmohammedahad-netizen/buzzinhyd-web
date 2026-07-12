@@ -83,7 +83,7 @@ export default function AboutPage() {
       {/* How We Work */}
       <section className="w-full py-24 md:py-32 bg-[var(--bh-cream)] border-y border-[rgba(160,120,48,0.15)]">
         <div className="w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
-          <div className="flex flex-col items-center text-center mb-16">
+          <div className="flex flex-col items-center text-center mb-24 md:mb-32">
             <span className="font-mono text-[11px] uppercase tracking-[0.3em] text-[var(--bh-gold)] mb-4 block">
               How We Work
             </span>
@@ -91,7 +91,39 @@ export default function AboutPage() {
               Six Steps To A Brand
             </h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-8 md:gap-4">
+
+          {/* Desktop: alternating timeline */}
+          <div className="hidden md:block relative">
+            <div className="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-[2px] bg-[var(--bh-text)]" />
+            <div className="relative grid grid-cols-6">
+              {PROCESS_STEPS.map((step, i) => (
+                <div key={step.num} className="relative flex flex-col items-center">
+                  {i % 2 === 0 ? (
+                    <>
+                      <div className="flex flex-col items-center text-center pb-10">
+                        <span className="font-mono text-[13px] text-[var(--bh-muted)]">{step.num}</span>
+                        <span className="font-display text-2xl text-[var(--bh-text)]">{step.label}</span>
+                      </div>
+                      <span className="w-4 h-4 rounded-full bg-[var(--bh-gold)] z-10" />
+                      <div className="pt-10" />
+                    </>
+                  ) : (
+                    <>
+                      <div className="pb-10" />
+                      <span className="w-4 h-4 rounded-full bg-[var(--bh-gold)] z-10" />
+                      <div className="flex flex-col items-center text-center pt-10">
+                        <span className="font-display text-2xl text-[var(--bh-text)]">{step.label}</span>
+                        <span className="font-mono text-[13px] text-[var(--bh-muted)]">{step.num}</span>
+                      </div>
+                    </>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Mobile: simple grid */}
+          <div className="grid grid-cols-2 gap-8 md:hidden">
             {PROCESS_STEPS.map((step) => (
               <div key={step.num} className="flex flex-col items-center text-center">
                 <span className="font-mono text-[11px] text-[var(--bh-gold)] mb-3">{step.num}</span>
