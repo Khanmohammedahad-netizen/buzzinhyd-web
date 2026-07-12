@@ -44,7 +44,7 @@ function HeroSection() {
         <div className="relative w-full h-full">
           <BHImage
             src="/images/pastry-cinnamon-roll.jpg"
-            alt="Artisan pastry — Buzzinhyd food photography"
+            alt="Artisan pastry, Buzzinhyd food photography"
             fill
             priority
             className="object-cover object-center"

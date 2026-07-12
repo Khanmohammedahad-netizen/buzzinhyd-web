@@ -31,12 +31,12 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Buzzinhyd | Food & Restaurant Marketing Agency — Hyderabad',
+  title: 'Buzzinhyd | Food & Restaurant Marketing Agency, Hyderabad',
   description: 'Buzzinhyd is Hyderabad\'s premier food and restaurant marketing agency. We craft cinematic content, brand stories, and campaigns that turn food into feelings.',
   keywords: ['food marketing', 'restaurant marketing', 'food photography', 'Hyderabad', 'content strategy', 'Buzzinhyd'],
   openGraph: {
     title: 'Buzzinhyd | We Don\'t Sell Food. We Sell Feelings.',
-    description: 'Hyderabad\'s premier restaurant marketing agency — food photography, videography, social media, and brand strategy.',
+    description: 'Hyderabad\'s premier restaurant marketing agency: food photography, videography, social media, and brand strategy.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'Buzzinhyd',

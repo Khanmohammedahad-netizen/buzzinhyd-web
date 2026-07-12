@@ -7,6 +7,7 @@ import { Instagram, Youtube } from 'lucide-react'
 
 const LINKS = [
   { name: 'Work', href: '/work' },
+  { name: 'Case Studies', href: '/case-studies' },
   { name: 'Services', href: '/services' },
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },

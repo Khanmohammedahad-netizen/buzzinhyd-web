@@ -1,5 +1,5 @@
 /* =========================================================
-   BUZZINHYD — LUXURY LIGHT DESIGN SYSTEM
+   BUZZINHYD · LUXURY LIGHT DESIGN SYSTEM
    Bottega Veneta editorial · Warm ivory · Burnished gold · Deep ink
    ========================================================= */
 
@@ -11,13 +11,13 @@
 :root {
   --bh-black:     #1A1208;   /* text only, never backgrounds */
   --bh-charcoal:  #2C2416;   /* footer bg, dark moments */
-  --bh-warm:      #FAF6EF;   /* primary page background — warm ivory */
+  --bh-warm:      #FAF6EF;   /* primary page background, warm ivory */
   --bh-cream:     #FDF9F3;   /* card / section background */
-  --bh-gold:      #A07830;   /* primary accent — burnished gold */
+  --bh-gold:      #A07830;   /* primary accent, burnished gold */
   --bh-gold-soft: #C9A86C;   /* hover states, secondary gold */
-  --bh-red:       #8B2020;   /* reserved — use sparingly */
-  --bh-text:      #1A1208;   /* primary body text — near black */
-  --bh-muted:     #6B5E4A;   /* captions, secondary — warm, never cool */
+  --bh-red:       #8B2020;   /* reserved, use sparingly */
+  --bh-text:      #1A1208;   /* primary body text, near black */
+  --bh-muted:     #6B5E4A;   /* captions, secondary, warm, never cool */
 }
 
 /* ── Reset ─────────────────────────────────────────────── */

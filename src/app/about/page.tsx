@@ -39,7 +39,7 @@ export default function AboutPage() {
             </h1>
           </div>
           <div className="w-full md:w-7/12 h-[60vh] md:h-[80vh] relative overflow-hidden transform-gpu">
-            <BHImage src="/images/chef-plating-dark.jpg" alt="Chef plating — Buzzinhyd" fill priority className="object-cover object-top" />
+            <BHImage src="/images/chef-plating-dark.jpg" alt="Chef plating, Buzzinhyd" fill priority className="object-cover object-top" />
           </div>
         </div>
       </section>
@@ -63,7 +63,7 @@ export default function AboutPage() {
               <h3 className="font-display text-4xl mb-8">Our Story</h3>
               <div className="flex flex-col gap-6 font-body text-base md:text-lg text-[var(--bh-muted)] leading-relaxed">
                 <p>
-                  Born in Hyderabad—a city where food is synonymous with culture, heritage, and pride—Buzzinhyd was founded on a simple premise: a great dish alone is no longer enough to guarantee a full dining room.
+                  Born in Hyderabad, a city where food is synonymous with culture, heritage, and pride, Buzzinhyd was founded on a simple premise: a great dish alone is no longer enough to guarantee a full dining room.
                 </p>
                 <p>
                   We noticed that the most incredible culinary talent often struggled to translate their offline magic into online equity. They didn't need another generic social media manager; they needed storytellers.

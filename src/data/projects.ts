@@ -52,7 +52,7 @@ export const projects: Project[] = [
       '/images/chef-plating-dark.jpg',
       '/images/bts-ipad-pasta-flatlay.jpg',
     ],
-    description: 'An intimate holiday dining event captured across stills and video — from the kitchen to the table.'
+    description: 'An intimate holiday dining event captured across stills and video, from the kitchen to the table.'
   },
   {
     slug: 'daily-creative-stories',
@@ -67,7 +67,7 @@ export const projects: Project[] = [
       '/images/campaign-choco-strawberry.jpg',
       '/images/campaign-strawberry-display.jpg',
     ],
-    description: `Keeping brands alive every single day. We produce daily Instagram stories — seasonal drops, product highlights, and creative campaigns — engineered to hold attention and drive repeat visits. Aesthetic content gets likes. Storytelling content gets customers.`
+    description: `Keeping brands alive every single day. We produce daily Instagram stories: seasonal drops, product highlights, and creative campaigns, engineered to hold attention and drive repeat visits. Aesthetic content gets likes. Storytelling content gets customers.`
   },
   {
     slug: 'valentines-campaign',
@@ -111,8 +111,8 @@ export const projects: Project[] = [
       '/images/chef-plating-dark.jpg',
       '/images/bts-ipad-pasta-flatlay.jpg',
     ],
-    description: `The Challenge: Feranoz introduced an All-Day Breakfast Menu in a market where food promos lean on repetitive close-ups and product-heavy visuals. The goal wasn't just to announce availability — it was to create an emotional desire to experience slow mornings at Feranoz.
+    description: `The Challenge: Feranoz introduced an All-Day Breakfast Menu in a market where food promos lean on repetitive close-ups and product-heavy visuals. The goal wasn't just to announce availability, it was to create an emotional desire to experience slow mornings at Feranoz.
 
-Our Creative Strategy: Rather than a traditional food commercial, we built a cinematic lifestyle narrative — a young woman walks in, pauses at the dessert display, settles into a cozy corner, browses the new menu, and enjoys a peaceful morning over coffee and breakfast. Food played a supporting role, not the lead. Instead of asking viewers to "buy breakfast," the reel invited them to imagine spending their morning at Feranoz.`
+Our Creative Strategy: Rather than a traditional food commercial, we built a cinematic lifestyle narrative, a young woman walks in, pauses at the dessert display, settles into a cozy corner, browses the new menu, and enjoys a peaceful morning over coffee and breakfast. Food played a supporting role, not the lead. Instead of asking viewers to "buy breakfast," the reel invited them to imagine spending their morning at Feranoz.`
   },
 ]
