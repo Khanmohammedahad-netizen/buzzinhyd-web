@@ -21,6 +21,7 @@ const WORK_ITEMS = [
   { id: 10, src: '/images/bts-fine-dining-spread.jpg', category: 'Campaigns', title: 'Modern Table', slug: 'holiday-chefs-table' },
   { id: 11, src: '/images/bts-table-setting-elegant.jpg', category: 'Campaigns', title: 'Studio Setup', slug: 'holiday-chefs-table' },
   { id: 12, src: '/images/bts-ipad-pasta-flatlay.jpg', category: 'Social Content', title: 'Digital Workflow', slug: 'daily-creative-stories' },
+  { id: 13, src: '/images/bts-table-setting-elegant.jpg', category: 'Campaigns', title: 'All-Day Breakfast', slug: 'feranoz-all-day-breakfast' },
 ]
 
 export default function WorkPage() {
