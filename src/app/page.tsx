@@ -228,7 +228,10 @@ function PhilosophySection() {
 }
 
 function FeaturedWork({ isMobile }: { isMobile: boolean }) {
-  const featured = projects.slice(0, 6)
+  const featured = [
+    projects.find(p => p.slug === 'feranoz-all-day-breakfast')!,
+    ...projects.filter(p => p.slug !== 'feranoz-all-day-breakfast').slice(0, 5),
+  ]
 
   // 3D Tilt Logic
   const handleMouseMove = (e: React.MouseEvent, target: HTMLElement) => {
