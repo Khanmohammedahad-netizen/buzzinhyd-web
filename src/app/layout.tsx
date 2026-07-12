@@ -31,15 +31,31 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://buzzinhyd-web.vercel.app'),
   title: 'Buzzinhyd | Food & Restaurant Marketing Agency, Hyderabad',
   description: 'Buzzinhyd is Hyderabad\'s premier food and restaurant marketing agency. We craft cinematic content, brand stories, and campaigns that turn food into feelings.',
   keywords: ['food marketing', 'restaurant marketing', 'food photography', 'Hyderabad', 'content strategy', 'Buzzinhyd'],
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     title: 'Buzzinhyd | We Don\'t Sell Food. We Sell Feelings.',
     description: 'Hyderabad\'s premier restaurant marketing agency: food photography, videography, social media, and brand strategy.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'Buzzinhyd',
+    images: [{ url: '/images/og-cover.jpg', width: 1200, height: 630, alt: 'Buzzinhyd' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Buzzinhyd | We Don\'t Sell Food. We Sell Feelings.',
+    description: 'Hyderabad\'s premier restaurant marketing agency: food photography, videography, social media, and brand strategy.',
+    images: ['/images/og-cover.jpg'],
   },
 }
 
