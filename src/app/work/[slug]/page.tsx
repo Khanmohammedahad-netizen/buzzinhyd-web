@@ -32,9 +32,16 @@ export default function ProjectDetail({ params }: { params: { slug: string } }) 
           <div className="md:col-span-8">
             <span className="font-mono text-[11px] tracking-[0.3em] uppercase block text-[var(--bh-gold)] mb-6">Case Study</span>
             <h1 className="font-display text-5xl md:text-8xl mb-8 leading-[0.9]">{project.title}</h1>
-            <p className="font-body text-lg md:text-2xl text-[var(--bh-muted)] max-w-2xl leading-relaxed">
-              {project.description}
-            </p>
+            <div className="flex flex-col gap-6 max-w-2xl">
+              {project.description.split('\n\n').map((paragraph, i) => (
+                <p
+                  key={i}
+                  className={`font-body text-[var(--bh-muted)] leading-relaxed ${i === 0 ? 'text-lg md:text-2xl' : 'text-base md:text-lg'}`}
+                >
+                  {paragraph}
+                </p>
+              ))}
+            </div>
           </div>
           
           <div className="md:col-span-4 flex flex-col gap-10 md:pl-16 pt-8">

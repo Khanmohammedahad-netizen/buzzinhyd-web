@@ -27,7 +27,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'michelin-chef-collab',
-    title: 'The Michelin Collaboration',
+    title: 'Creating Content with Michelin-Star Chef Joakim Prat',
     category: 'Chef Campaigns',
     client: 'Roast Cafe',
     year: '2024',
@@ -38,7 +38,17 @@ export const projects: Project[] = [
       '/images/dessert-choux-stack.jpg',
       '/images/bts-live-kitchen-flash.jpg',
     ],
-    description: 'A multi-channel campaign for a limited-time menu by a visiting Michelin-starred chef. Photography, reels, and social graphics delivered.'
+    description: `Some projects go beyond creating content, they become an opportunity to document craftsmanship. While serving as the in-house marketing agency for Roast, our team had the privilege of working closely with Michelin-star chef Joakim Prat during his exclusive collaboration with the cafe. Rather than simply documenting the event, our goal was to create visual content that reflected the precision, creativity, and artistry behind every dessert.
+
+The Objective: Roast wanted to showcase more than just beautifully plated desserts. The objective was to communicate the experience of having a Michelin-star chef in the kitchen while strengthening the brand's premium positioning across digital platforms. Our role was to capture the collaboration in a way that felt authentic, elegant, and worthy of both the chef's reputation and Roast's brand identity.
+
+Our Approach: Instead of focusing only on finished dishes, we documented the entire creative journey, behind-the-scenes moments of Chef Joakim Prat crafting his signature desserts, professional portfolio photographs highlighting the chef's personality and craftsmanship, premium food photography showcasing every dessert with attention to texture, detail, and presentation, cinematic short-form videos designed for Instagram Reels, and lifestyle and environmental shots that communicated the atmosphere of the collaboration. Every frame was planned to maintain a luxurious, editorial aesthetic while remaining engaging for digital audiences.
+
+Creative Direction: Luxury hospitality deserves premium storytelling. We focused on clean compositions, natural movement, refined lighting, and minimal distractions so the craftsmanship remained the hero of every visual. Rather than creating conventional food content, we produced a visual narrative that connected viewers with the process, precision, and passion behind each dessert.
+
+The Outcome: The collaboration allowed Roast to showcase a world-class culinary experience through premium visual content that resonated with its audience. For our team, it reinforced what we believe great hospitality marketing should achieve: not just showcasing products, but preserving moments that strengthen a brand's story. Working alongside Michelin-star chef Joakim Prat was an opportunity to create content that reflected excellence, authenticity, and attention to detail, qualities that continue to define the work we produce for restaurants, cafes, hotels, and hospitality brands.
+
+Services Used: Hospitality Marketing, Food Photography, Restaurant Content Creation, Chef Portfolio Photography, Social Media Marketing, Instagram Reels, Brand Storytelling, Creative Direction. Industry: Hospitality, Restaurants, Fine Dining, Premium Cafes. Location: Hyderabad, India.`
   },
   {
     slug: 'holiday-chefs-table',
