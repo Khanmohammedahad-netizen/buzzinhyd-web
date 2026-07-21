@@ -34,7 +34,6 @@ export const projects: Project[] = [
     heroImage: '/images/chef-michelin-portrait.jpg',
     gallery: [
       '/images/bts-kitchen-shoot-wide.jpg',
-      '/images/dessert-roast-cube.jpg',
       '/images/dessert-choux-stack.jpg',
       '/images/bts-live-kitchen-flash.jpg',
     ],

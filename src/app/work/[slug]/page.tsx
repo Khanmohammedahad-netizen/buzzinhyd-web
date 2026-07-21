@@ -22,7 +22,13 @@ export default function ProjectDetail({ params }: { params: { slug: string } }) 
       
       {/* Hero Image */}
       <div className="w-full h-[60vh] md:h-[80vh] relative overflow-hidden">
-        <BHImage src={project.heroImage} alt={project.title} fill priority className="object-cover" />
+        <BHImage
+          src={project.heroImage}
+          alt={project.title}
+          fill
+          priority
+          className={`object-cover ${project.slug === 'michelin-chef-collab' ? 'scale-90' : ''}`}
+        />
       </div>
 
       <div className="w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16 py-24">
