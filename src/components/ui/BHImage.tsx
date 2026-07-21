@@ -1,5 +1,5 @@
-export function BHImage({ src, alt, className = '', fill, priority, ...props }: any) {
-  // Using a standard img tag to bypass any next/image optimization or hydration issues 
+export function BHImage({ src, alt, className = '', fill, priority, objectPosition = 'center', ...props }: any) {
+  // Using a standard img tag to bypass any next/image optimization or hydration issues
   // that are currently causing images to be invisible in production.
   return (
     <div className={`relative w-full h-full overflow-hidden ${className}`}>
@@ -16,7 +16,7 @@ export function BHImage({ src, alt, className = '', fill, priority, ...props }: 
           right: 0,
           bottom: 0,
           objectFit: 'cover',
-          objectPosition: 'center'
+          objectPosition
         } : {}}
         className={`object-cover w-full h-full ${className}`}
         {...props}

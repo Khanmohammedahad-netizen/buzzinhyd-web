@@ -27,7 +27,8 @@ export default function ProjectDetail({ params }: { params: { slug: string } }) 
           alt={project.title}
           fill
           priority
-          className={`object-cover ${project.slug === 'michelin-chef-collab' ? 'scale-90' : ''}`}
+          className="object-cover"
+          objectPosition={project.slug === 'michelin-chef-collab' ? '50% 20%' : 'center'}
         />
       </div>
 
